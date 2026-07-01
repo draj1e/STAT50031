@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 中间/临时实验输出（保留 summary_final.json / supp.json / 三张 .png / full_final.txt / supp.txt）
+results/summary.json
+results/full.txt
+results/quick.txt
+
+# 编辑器
+.idea/
+.vscode/
+.DS_Store

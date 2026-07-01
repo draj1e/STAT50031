@@ -1,0 +1,411 @@
+{
+  "config": {
+    "quick": false,
+    "n": 100,
+    "universe": 200,
+    "k": 10,
+    "eta": 0.75,
+    "delta": 0.1,
+    "fixed_m": 30,
+    "out": "results/summary_final.json"
+  },
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "summary": {
+    "mild": {
+      "greedy_f_mean": 163.9,
+      "algos": {
+        "fixed_guaranteed": {
+          "f_mean": 164.25,
+          "gap_mean": -0.35,
+          "queries_mean": 296623.0,
+          "cost_mean": 539198.4227699462,
+          "cost_std": 13975.981900815117,
+          "cert_mean": 164.42950457737953,
+          "fail_rate": 0.0,
+          "trunc_mean": 0.0
+        },
+        "confidence_greedy": {
+          "f_mean": 164.0,
+          "gap_mean": -0.1,
+          "queries_mean": 10485.2,
+          "cost_mean": 18947.765373017035,
+          "cost_std": 3080.0409205231676,
+          "cert_mean": 157.57866874422362,
+          "fail_rate": 0.0,
+          "trunc_mean": 0.0
+        },
+        "CACG": {
+          "f_mean": 163.5,
+          "gap_mean": 0.4,
+          "queries_mean": 5744.2,
+          "cost_mean": 10102.255799137905,
+          "cost_std": 1456.0125591360027,
+          "cert_mean": 158.22823425818137,
+          "fail_rate": 0.0,
+          "trunc_mean": 0.0
+        },
+        "CACG-noEB": {
+          "f_mean": 163.75,
+          "gap_mean": 0.15,
+          "queries_mean": 10629.8,
+          "cost_mean": 18663.595222554235,
+          "cost_std": 3134.6360245403744,
+          "cert_mean": 157.64082299453355,
+          "fail_rate": 0.0,
+          "trunc_mean": 0.0
+        },
+        "CACG-noCost": {
+          "f_mean": 164.1,
+          "gap_mean": -0.2,
+          "queries_mean": 5480.4,
+          "cost_mean": 9790.43103347643,
+          "cost_std": 1630.9610213882333,
+          "cert_mean": 158.85914349425607,
+          "fail_rate": 0.0,
+          "trunc_mean": 0.0
+        },
+        "CACG-MP": {
+          "f_mean": 163.8,
+          "gap_mean": 0.1,
+          "queries_mean": 16704.4,
+          "cost_mean": 29594.378749714233,
+          "cost_std": 3438.390185753474,
+          "cert_mean": 157.82268291967662,
+          "fail_rate": 0.0,
+          "trunc_mean": 0.0
+        },
+        "random": {
+          "f_mean": 125.45,
+          "gap_mean": 38.45,
+          "queries_mean": 0.0,
+          "cost_mean": 0.0,
+          "cost_std": 0.0,
+          "cert_mean": 0.0,
+          "fail_rate": 0.0,
+          "trunc_mean": 0.0
+        }
+      }
+    },
+    "hetero-var": {
+      "greedy_f_mean": 163.9,
+      "algos": {
+        "fixed_guaranteed": {
+          "f_mean": 164.2,
+          "gap_mean": -0.3,
+          "queries_mean": 3154508.25,
+          "cost_mean": 5733511.803351587,
+          "cost_std": 268369.9407426659,
+          "cert_mean": 164.3168507394032,
+          "fail_rate": 0.0,
+          "trunc_mean": 0.0
+        },
+        "confidence_greedy": {
+          "f_mean": 163.9,
+          "gap_mean": 0.0,
+          "queries_mean": 66350.6,
+          "cost_mean": 117324.25386622199,
+          "cost_std": 12143.776676170133,
+          "cert_mean": 156.1004861772178,
+          "fail_rate": 0.0,
+          "trunc_mean": 5.45
+        },
+        "CACG": {
+          "f_mean": 163.55,
+          "gap_mean": 0.35,
+          "queries_mean": 16117.7,
+          "cost_mean": 27575.21668652481,
+          "cost_std": 9009.471883735228,
+          "cert_mean": 158.6315440926127,
+          "fail_rate": 0.0,
+          "trunc_mean": 0.15
+        },
+        "CACG-noEB": {
+          "f_mean": 163.95,
+          "gap_mean": -0.05,
+          "queries_mean": 66620.15,
+          "cost_mean": 116214.50830694454,
+          "cost_std": 9461.338243503917,
+          "cert_mean": 156.93076666094635,
+          "fail_rate": 0.0,
+          "trunc_mean": 5.55
+        },
+        "CACG-noCost": {
+          "f_mean": 163.3,
+          "gap_mean": 0.6,
+          "queries_mean": 17584.3,
+          "cost_mean": 30833.955662142358,
+          "cost_std": 12407.738324000788,
+          "cert_mean": 159.7515919352475,
+          "fail_rate": 0.0,
+          "trunc_mean": 0.1
+        },
+        "CACG-MP": {
+          "f_mean": 163.8,
+          "gap_mean": 0.1,
+          "queries_mean": 38026.55,
+          "cost_mean": 66884.40657801411,
+          "cost_std": 14198.197032395161,
+          "cert_mean": 158.59046775341628,
+          "fail_rate": 0.0,
+          "trunc_mean": 0.7
+        },
+        "random": {
+          "f_mean": 126.85,
+          "gap_mean": 37.05,
+          "queries_mean": 0.0,
+          "cost_mean": 0.0,
+          "cost_std": 0.0,
+          "cert_mean": 0.0,
+          "fail_rate": 0.0,
+          "trunc_mean": 0.0
+        }
+      }
+    },
+    "hetero-cost": {
+      "greedy_f_mean": 163.9,
+      "algos": {
+        "fixed_guaranteed": {
+          "f_mean": 164.25,
+          "gap_mean": -0.35,
+          "queries_mean": 296623.0,
+          "cost_mean": 2535830.2384291952,
+          "cost_std": 187378.34614515203,
+          "cert_mean": 164.42950457737953,
+          "fail_rate": 0.0,
+          "trunc_mean": 0.0
+        },
+        "confidence_greedy": {
+          "f_mean": 164.0,
+          "gap_mean": -0.1,
+          "queries_mean": 10485.2,
+          "cost_mean": 88494.30650308004,
+          "cost_std": 23567.99693468733,
+          "cert_mean": 157.57866874422362,
+          "fail_rate": 0.0,
+          "trunc_mean": 0.0
+        },
+        "CACG": {
+          "f_mean": 164.05,
+          "gap_mean": -0.15,
+          "queries_mean": 5812.2,
+          "cost_mean": 43501.01408865902,
+          "cost_std": 8817.541865039928,
+          "cert_mean": 158.7685425081078,
+          "fail_rate": 0.0,
+          "trunc_mean": 0.0
+        },
+        "CACG-noEB": {
+          "f_mean": 163.85,
+          "gap_mean": 0.05,
+          "queries_mean": 11596.2,
+          "cost_mean": 85097.63694921936,
+          "cost_std": 27086.264769312686,
+          "cert_mean": 158.1269788677478,
+          "fail_rate": 0.0,
+          "trunc_mean": 0.0
+        },
+        "CACG-noCost": {
+          "f_mean": 164.0,
+          "gap_mean": -0.1,
+          "queries_mean": 5390.0,
+          "cost_mean": 44866.00013381018,
+          "cost_std": 8525.439436855193,
+          "cert_mean": 158.7289840646582,
+          "fail_rate": 0.0,
+          "trunc_mean": 0.0
+        },
+        "CACG-MP": {
+          "f_mean": 163.85,
+          "gap_mean": 0.05,
+          "queries_mean": 17221.6,
+          "cost_mean": 132655.34035171632,
+          "cost_std": 28464.771410783735,
+          "cert_mean": 158.6018269669106,
+          "fail_rate": 0.0,
+          "trunc_mean": 0.0
+        },
+        "random": {
+          "f_mean": 125.1,
+          "gap_mean": 38.8,
+          "queries_mean": 0.0,
+          "cost_mean": 0.0,
+          "cost_std": 0.0,
+          "cert_mean": 0.0,
+          "fail_rate": 0.0,
+          "trunc_mean": 0.0
+        }
+      }
+    },
+    "both-anti": {
+      "greedy_f_mean": 163.9,
+      "algos": {
+        "fixed_guaranteed": {
+          "f_mean": 164.2,
+          "gap_mean": -0.3,
+          "queries_mean": 3154508.25,
+          "cost_mean": 26922984.493937008,
+          "cost_std": 2221950.6756564425,
+          "cert_mean": 164.3168507394032,
+          "fail_rate": 0.0,
+          "trunc_mean": 0.0
+        },
+        "confidence_greedy": {
+          "f_mean": 163.9,
+          "gap_mean": 0.0,
+          "queries_mean": 66350.6,
+          "cost_mean": 564666.1993249645,
+          "cost_std": 81831.8356970837,
+          "cert_mean": 156.1004861772178,
+          "fail_rate": 0.0,
+          "trunc_mean": 5.45
+        },
+        "CACG": {
+          "f_mean": 163.85,
+          "gap_mean": 0.05,
+          "queries_mean": 16458.0,
+          "cost_mean": 77960.35093601487,
+          "cost_std": 19867.73467887278,
+          "cert_mean": 159.44661533144136,
+          "fail_rate": 0.0,
+          "trunc_mean": 0.0
+        },
+        "CACG-noEB": {
+          "f_mean": 163.7,
+          "gap_mean": 0.2,
+          "queries_mean": 69275.75,
+          "cost_mean": 475606.11892092566,
+          "cost_std": 78647.48515861537,
+          "cert_mean": 157.11226855447507,
+          "fail_rate": 0.0,
+          "trunc_mean": 6.25
+        },
+        "CACG-noCost": {
+          "f_mean": 163.8,
+          "gap_mean": 0.1,
+          "queries_mean": 16149.8,
+          "cost_mean": 80957.07342771985,
+          "cost_std": 26970.664933123247,
+          "cert_mean": 158.99511307642268,
+          "fail_rate": 0.0,
+          "trunc_mean": 0.0
+        },
+        "CACG-MP": {
+          "f_mean": 164.05,
+          "gap_mean": -0.15,
+          "queries_mean": 40105.5,
+          "cost_mean": 196118.5859245464,
+          "cost_std": 42720.67329066684,
+          "cert_mean": 158.48234680200062,
+          "fail_rate": 0.0,
+          "trunc_mean": 0.5
+        },
+        "random": {
+          "f_mean": 124.9,
+          "gap_mean": 39.0,
+          "queries_mean": 0.0,
+          "cost_mean": 0.0,
+          "cost_std": 0.0,
+          "cert_mean": 0.0,
+          "fail_rate": 0.0,
+          "trunc_mean": 0.0
+        }
+      }
+    },
+    "both-hard": {
+      "greedy_f_mean": 185.0,
+      "algos": {
+        "fixed_guaranteed": {
+          "f_mean": 185.2,
+          "gap_mean": -0.2,
+          "queries_mean": 3154508.25,
+          "cost_mean": 26851406.807059955,
+          "cost_std": 2358227.96210682,
+          "cert_mean": 185.25513031918712,
+          "fail_rate": 0.0,
+          "trunc_mean": 0.0
+        },
+        "confidence_greedy": {
+          "f_mean": 185.15,
+          "gap_mean": -0.15,
+          "queries_mean": 49707.9,
+          "cost_mean": 418124.8877616432,
+          "cost_std": 81764.32744350945,
+          "cert_mean": 173.0334104460557,
+          "fail_rate": 0.0,
+          "trunc_mean": 4.2
+        },
+        "CACG": {
+          "f_mean": 184.45,
+          "gap_mean": 0.55,
+          "queries_mean": 11539.05,
+          "cost_mean": 114570.29249241945,
+          "cost_std": 47113.94744752749,
+          "cert_mean": 177.8305924319536,
+          "fail_rate": 0.0,
+          "trunc_mean": 0.05
+        },
+        "CACG-noEB": {
+          "f_mean": 185.0,
+          "gap_mean": 0.0,
+          "queries_mean": 51273.8,
+          "cost_mean": 415022.17074559047,
+          "cost_std": 65698.95349776269,
+          "cert_mean": 174.23189266561218,
+          "fail_rate": 0.0,
+          "trunc_mean": 4.55
+        },
+        "CACG-noCost": {
+          "f_mean": 183.85,
+          "gap_mean": 1.15,
+          "queries_mean": 13398.5,
+          "cost_mean": 159866.2664078367,
+          "cost_std": 66788.35451361466,
+          "cert_mean": 176.69217649837765,
+          "fail_rate": 0.0,
+          "trunc_mean": 0.1
+        },
+        "CACG-MP": {
+          "f_mean": 184.3,
+          "gap_mean": 0.7,
+          "queries_mean": 28491.0,
+          "cost_mean": 291632.5323531771,
+          "cost_std": 62148.284581445165,
+          "cert_mean": 176.46525648455284,
+          "fail_rate": 0.0,
+          "trunc_mean": 0.25
+        },
+        "random": {
+          "f_mean": 129.2,
+          "gap_mean": 55.8,
+          "queries_mean": 0.0,
+          "cost_mean": 0.0,
+          "cost_std": 0.0,
+          "cert_mean": 0.0,
+          "fail_rate": 0.0,
+          "trunc_mean": 0.0
+        }
+      }
+    }
+  }
+}

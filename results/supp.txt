@@ -1,0 +1,100 @@
+/mnt/data/zjj/hzf/code/budget_and_convergence.py:63: UserWarning: Glyph 39044 (\N{CJK UNIFIED IDEOGRAPH-9884}) missing from font(s) DejaVu Sans.
+  fig.tight_layout()
+/mnt/data/zjj/hzf/code/budget_and_convergence.py:63: UserWarning: Glyph 31639 (\N{CJK UNIFIED IDEOGRAPH-7B97}) missing from font(s) DejaVu Sans.
+  fig.tight_layout()
+/mnt/data/zjj/hzf/code/budget_and_convergence.py:63: UserWarning: Glyph 65288 (\N{FULLWIDTH LEFT PARENTHESIS}) missing from font(s) DejaVu Sans.
+  fig.tight_layout()
+/mnt/data/zjj/hzf/code/budget_and_convergence.py:63: UserWarning: Glyph 20197 (\N{CJK UNIFIED IDEOGRAPH-4EE5}) missing from font(s) DejaVu Sans.
+  fig.tight_layout()
+/mnt/data/zjj/hzf/code/budget_and_convergence.py:63: UserWarning: Glyph 33258 (\N{CJK UNIFIED IDEOGRAPH-81EA}) missing from font(s) DejaVu Sans.
+  fig.tight_layout()
+/mnt/data/zjj/hzf/code/budget_and_convergence.py:63: UserWarning: Glyph 28982 (\N{CJK UNIFIED IDEOGRAPH-7136}) missing from font(s) DejaVu Sans.
+  fig.tight_layout()
+/mnt/data/zjj/hzf/code/budget_and_convergence.py:63: UserWarning: Glyph 25910 (\N{CJK UNIFIED IDEOGRAPH-6536}) missing from font(s) DejaVu Sans.
+  fig.tight_layout()
+/mnt/data/zjj/hzf/code/budget_and_convergence.py:63: UserWarning: Glyph 25947 (\N{CJK UNIFIED IDEOGRAPH-655B}) missing from font(s) DejaVu Sans.
+  fig.tight_layout()
+/mnt/data/zjj/hzf/code/budget_and_convergence.py:63: UserWarning: Glyph 25104 (\N{CJK UNIFIED IDEOGRAPH-6210}) missing from font(s) DejaVu Sans.
+  fig.tight_layout()
+/mnt/data/zjj/hzf/code/budget_and_convergence.py:63: UserWarning: Glyph 26412 (\N{CJK UNIFIED IDEOGRAPH-672C}) missing from font(s) DejaVu Sans.
+  fig.tight_layout()
+/mnt/data/zjj/hzf/code/budget_and_convergence.py:63: UserWarning: Glyph 20026 (\N{CJK UNIFIED IDEOGRAPH-4E3A}) missing from font(s) DejaVu Sans.
+  fig.tight_layout()
+/mnt/data/zjj/hzf/code/budget_and_convergence.py:63: UserWarning: Glyph 21333 (\N{CJK UNIFIED IDEOGRAPH-5355}) missing from font(s) DejaVu Sans.
+  fig.tight_layout()
+/mnt/data/zjj/hzf/code/budget_and_convergence.py:63: UserWarning: Glyph 20301 (\N{CJK UNIFIED IDEOGRAPH-4F4D}) missing from font(s) DejaVu Sans.
+  fig.tight_layout()
+/mnt/data/zjj/hzf/code/budget_and_convergence.py:63: UserWarning: Glyph 65289 (\N{FULLWIDTH RIGHT PARENTHESIS}) missing from font(s) DejaVu Sans.
+  fig.tight_layout()
+/mnt/data/zjj/hzf/code/budget_and_convergence.py:63: UserWarning: Glyph 35299 (\N{CJK UNIFIED IDEOGRAPH-89E3}) missing from font(s) DejaVu Sans.
+  fig.tight_layout()
+/mnt/data/zjj/hzf/code/budget_and_convergence.py:63: UserWarning: Glyph 36136 (\N{CJK UNIFIED IDEOGRAPH-8D28}) missing from font(s) DejaVu Sans.
+  fig.tight_layout()
+/mnt/data/zjj/hzf/code/budget_and_convergence.py:63: UserWarning: Glyph 37327 (\N{CJK UNIFIED IDEOGRAPH-91CF}) missing from font(s) DejaVu Sans.
+  fig.tight_layout()
+/mnt/data/zjj/hzf/code/budget_and_convergence.py:63: UserWarning: Glyph 30340 (\N{CJK UNIFIED IDEOGRAPH-7684}) missing from font(s) DejaVu Sans.
+  fig.tight_layout()
+/mnt/data/zjj/hzf/code/budget_and_convergence.py:63: UserWarning: Glyph 26354 (\N{CJK UNIFIED IDEOGRAPH-66F2}) missing from font(s) DejaVu Sans.
+  fig.tight_layout()
+/mnt/data/zjj/hzf/code/budget_and_convergence.py:63: UserWarning: Glyph 32447 (\N{CJK UNIFIED IDEOGRAPH-7EBF}) missing from font(s) DejaVu Sans.
+  fig.tight_layout()
+/mnt/data/zjj/hzf/code/budget_and_convergence.py:65: UserWarning: Glyph 35299 (\N{CJK UNIFIED IDEOGRAPH-89E3}) missing from font(s) DejaVu Sans.
+  fig.savefig(p, dpi=140)
+/mnt/data/zjj/hzf/code/budget_and_convergence.py:65: UserWarning: Glyph 36136 (\N{CJK UNIFIED IDEOGRAPH-8D28}) missing from font(s) DejaVu Sans.
+  fig.savefig(p, dpi=140)
+/mnt/data/zjj/hzf/code/budget_and_convergence.py:65: UserWarning: Glyph 37327 (\N{CJK UNIFIED IDEOGRAPH-91CF}) missing from font(s) DejaVu Sans.
+  fig.savefig(p, dpi=140)
+/mnt/data/zjj/hzf/code/budget_and_convergence.py:65: UserWarning: Glyph 30340 (\N{CJK UNIFIED IDEOGRAPH-7684}) missing from font(s) DejaVu Sans.
+  fig.savefig(p, dpi=140)
+/mnt/data/zjj/hzf/code/budget_and_convergence.py:65: UserWarning: Glyph 39044 (\N{CJK UNIFIED IDEOGRAPH-9884}) missing from font(s) DejaVu Sans.
+  fig.savefig(p, dpi=140)
+/mnt/data/zjj/hzf/code/budget_and_convergence.py:65: UserWarning: Glyph 31639 (\N{CJK UNIFIED IDEOGRAPH-7B97}) missing from font(s) DejaVu Sans.
+  fig.savefig(p, dpi=140)
+/mnt/data/zjj/hzf/code/budget_and_convergence.py:65: UserWarning: Glyph 26354 (\N{CJK UNIFIED IDEOGRAPH-66F2}) missing from font(s) DejaVu Sans.
+  fig.savefig(p, dpi=140)
+/mnt/data/zjj/hzf/code/budget_and_convergence.py:65: UserWarning: Glyph 32447 (\N{CJK UNIFIED IDEOGRAPH-7EBF}) missing from font(s) DejaVu Sans.
+  fig.savefig(p, dpi=140)
+/mnt/data/zjj/hzf/code/budget_and_convergence.py:65: UserWarning: Glyph 65288 (\N{FULLWIDTH LEFT PARENTHESIS}) missing from font(s) DejaVu Sans.
+  fig.savefig(p, dpi=140)
+/mnt/data/zjj/hzf/code/budget_and_convergence.py:65: UserWarning: Glyph 65289 (\N{FULLWIDTH RIGHT PARENTHESIS}) missing from font(s) DejaVu Sans.
+  fig.savefig(p, dpi=140)
+/mnt/data/zjj/hzf/code/budget_and_convergence.py:65: UserWarning: Glyph 20197 (\N{CJK UNIFIED IDEOGRAPH-4EE5}) missing from font(s) DejaVu Sans.
+  fig.savefig(p, dpi=140)
+/mnt/data/zjj/hzf/code/budget_and_convergence.py:65: UserWarning: Glyph 33258 (\N{CJK UNIFIED IDEOGRAPH-81EA}) missing from font(s) DejaVu Sans.
+  fig.savefig(p, dpi=140)
+/mnt/data/zjj/hzf/code/budget_and_convergence.py:65: UserWarning: Glyph 28982 (\N{CJK UNIFIED IDEOGRAPH-7136}) missing from font(s) DejaVu Sans.
+  fig.savefig(p, dpi=140)
+/mnt/data/zjj/hzf/code/budget_and_convergence.py:65: UserWarning: Glyph 25910 (\N{CJK UNIFIED IDEOGRAPH-6536}) missing from font(s) DejaVu Sans.
+  fig.savefig(p, dpi=140)
+/mnt/data/zjj/hzf/code/budget_and_convergence.py:65: UserWarning: Glyph 25947 (\N{CJK UNIFIED IDEOGRAPH-655B}) missing from font(s) DejaVu Sans.
+  fig.savefig(p, dpi=140)
+/mnt/data/zjj/hzf/code/budget_and_convergence.py:65: UserWarning: Glyph 25104 (\N{CJK UNIFIED IDEOGRAPH-6210}) missing from font(s) DejaVu Sans.
+  fig.savefig(p, dpi=140)
+/mnt/data/zjj/hzf/code/budget_and_convergence.py:65: UserWarning: Glyph 26412 (\N{CJK UNIFIED IDEOGRAPH-672C}) missing from font(s) DejaVu Sans.
+  fig.savefig(p, dpi=140)
+/mnt/data/zjj/hzf/code/budget_and_convergence.py:65: UserWarning: Glyph 20026 (\N{CJK UNIFIED IDEOGRAPH-4E3A}) missing from font(s) DejaVu Sans.
+  fig.savefig(p, dpi=140)
+/mnt/data/zjj/hzf/code/budget_and_convergence.py:65: UserWarning: Glyph 21333 (\N{CJK UNIFIED IDEOGRAPH-5355}) missing from font(s) DejaVu Sans.
+  fig.savefig(p, dpi=140)
+/mnt/data/zjj/hzf/code/budget_and_convergence.py:65: UserWarning: Glyph 20301 (\N{CJK UNIFIED IDEOGRAPH-4F4D}) missing from font(s) DejaVu Sans.
+  fig.savefig(p, dpi=140)
+anytime 预算-质量：
+  budget= 0.1×C   f/greedy=0.364
+  budget= 0.2×C   f/greedy=0.492
+  budget=0.35×C   f/greedy=0.661
+  budget= 0.5×C   f/greedy=0.772
+  budget= 0.7×C   f/greedy=0.883
+  budget= 1.0×C   f/greedy=1.006
+  budget= 1.5×C   f/greedy=1.006
+证书有效性 P(L≤f(S)) = 82/84 = 0.976
+saved /mnt/data/zjj/hzf/code/results/fig_budget_curve.png
+
+成本感知指数 p 扫描（总成本，越低越好）：
+  p= 1.0   cost=    81377.2   Δ vs best= +5.2%
+  p=1.25   cost=    77379.0   Δ vs best= +0.0%
+  p= 1.5   cost=    79196.0   Δ vs best= +2.3%
+  p=1.75   cost=    80347.3   Δ vs best= +3.8%
+  p= 2.0   cost=    77814.3   Δ vs best= +0.6%
+best p=1.25; 邻域相对波动=5.2% (C4 判据: <3% 视为收敛)
+
+saved /mnt/data/zjj/hzf/code/results/supp.json

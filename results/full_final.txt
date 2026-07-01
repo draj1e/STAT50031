@@ -1,0 +1,52 @@
+
+=== regime: mild  (greedy f≈163.9, seeds=20) ===
+algo                    f   gap   queries        cost  vsFixed  vsConf  fail trunc
+fixed_guaranteed    164.2  -0.3    296623    539198.4      +0%  -2746%  0.00   0.0
+confidence_greedy   164.0  -0.1     10485     18947.8     +96%     +0%  0.00   0.0
+CACG-noEB           163.8   0.1     10630     18663.6     +97%     +1%  0.00   0.0
+CACG-noCost         164.1  -0.2      5480      9790.4     +98%    +48%  0.00   0.0
+CACG-MP             163.8   0.1     16704     29594.4     +95%    -56%  0.00   0.0
+CACG                163.5   0.4      5744     10102.3     +98%    +47%  0.00   0.0
+random              125.5  38.5         0         0.0    +100%   +100%  0.00   0.0
+
+=== regime: hetero-var  (greedy f≈163.9, seeds=20) ===
+algo                    f   gap   queries        cost  vsFixed  vsConf  fail trunc
+fixed_guaranteed    164.2  -0.3   3154508   5733511.8      +0%  -4787%  0.00   0.0
+confidence_greedy   163.9   0.0     66351    117324.3     +98%     +0%  0.00   5.5
+CACG-noEB           163.9  -0.1     66620    116214.5     +98%     +1%  0.00   5.5
+CACG-noCost         163.3   0.6     17584     30834.0     +99%    +74%  0.00   0.1
+CACG-MP             163.8   0.1     38027     66884.4     +99%    +43%  0.00   0.7
+CACG                163.6   0.3     16118     27575.2    +100%    +76%  0.00   0.1
+random              126.8  37.0         0         0.0    +100%   +100%  0.00   0.0
+
+=== regime: hetero-cost  (greedy f≈163.9, seeds=20) ===
+algo                    f   gap   queries        cost  vsFixed  vsConf  fail trunc
+fixed_guaranteed    164.2  -0.3    296623   2535830.2      +0%  -2766%  0.00   0.0
+confidence_greedy   164.0  -0.1     10485     88494.3     +97%     +0%  0.00   0.0
+CACG-noEB           163.8   0.1     11596     85097.6     +97%     +4%  0.00   0.0
+CACG-noCost         164.0  -0.1      5390     44866.0     +98%    +49%  0.00   0.0
+CACG-MP             163.8   0.1     17222    132655.3     +95%    -50%  0.00   0.0
+CACG                164.1  -0.1      5812     43501.0     +98%    +51%  0.00   0.0
+random              125.1  38.8         0         0.0    +100%   +100%  0.00   0.0
+
+=== regime: both-anti  (greedy f≈163.9, seeds=20) ===
+algo                    f   gap   queries        cost  vsFixed  vsConf  fail trunc
+fixed_guaranteed    164.2  -0.3   3154508  26922984.5      +0%  -4668%  0.00   0.0
+confidence_greedy   163.9   0.0     66351    564666.2     +98%     +0%  0.00   5.5
+CACG-noEB           163.7   0.2     69276    475606.1     +98%    +16%  0.00   6.2
+CACG-noCost         163.8   0.1     16150     80957.1    +100%    +86%  0.00   0.0
+CACG-MP             164.1  -0.1     40106    196118.6     +99%    +65%  0.00   0.5
+CACG                163.8   0.1     16458     77960.4    +100%    +86%  0.00   0.0
+random              124.9  39.0         0         0.0    +100%   +100%  0.00   0.0
+
+=== regime: both-hard  (greedy f≈185.0, seeds=20) ===
+algo                    f   gap   queries        cost  vsFixed  vsConf  fail trunc
+fixed_guaranteed    185.2  -0.2   3154508  26851406.8      +0%  -6322%  0.00   0.0
+confidence_greedy   185.2  -0.1     49708    418124.9     +98%     +0%  0.00   4.2
+CACG-noEB           185.0   0.0     51274    415022.2     +98%     +1%  0.00   4.5
+CACG-noCost         183.8   1.1     13398    159866.3     +99%    +62%  0.00   0.1
+CACG-MP             184.3   0.7     28491    291632.5     +99%    +30%  0.00   0.2
+CACG                184.4   0.6     11539    114570.3    +100%    +73%  0.00   0.1
+random              129.2  55.8         0         0.0    +100%   +100%  0.00   0.0
+
+saved -> results/summary_final.json   (329.0s)
