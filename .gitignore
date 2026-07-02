@@ -14,3 +14,15 @@ results/quick.txt
 .idea/
 .vscode/
 .DS_Store
+
+# LaTeX aux (keep paper/main.pdf, drop build artifacts)
+paper/*.aux
+paper/*.log
+paper/*.bbl
+paper/*.blg
+paper/*.out
+paper/*.toc
+paper/*.synctex.gz
+paper/*.fls
+paper/*.fdb_latexmk
+paper/*.loa

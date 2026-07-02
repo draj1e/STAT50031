@@ -12,6 +12,15 @@ retaining a high-probability $(1-1/e)\,\mathrm{OPT}-\varepsilon$ guarantee.
 > Course project for STAT50031 (Introduction to Algorithms). This repository accompanies the
 > paper and contains everything needed to reproduce the empirical results.
 
+## Paper
+
+The full survey paper (LaTeX source + compiled PDF) is in [`paper/`](paper/):
+[`paper/main.pdf`](paper/main.pdf). To rebuild it (TeX Live; no external algorithm package needed):
+
+```bash
+cd paper && pdflatex main && bibtex main && pdflatex main && pdflatex main
+```
+
 ## Setup
 
 ```bash
